@@ -102,7 +102,7 @@ window.onload = async (event) => {
 			var verifySuccessDesc = serverDescElement.getAttribute("vc-verify-success");
 			
 			serverTitleElement.textContent = verifySuccessTitle ?? "Verified!";
-			serverDescElement.innerHTML = verifySuccessDesc !== 'custom' ? verifySuccessDesc : "Complete! Service provided by <a class=\"text-red-500 animate-pulse\" href=\"https://vaultcord.com\">vaultcord.com</a> | <a class=\"text-red-500 animate-pulse\" href=\"https://vaultcord.com/privacy\">Privacy Policy</a>";
+			serverDescElement.innerHTML = verifySuccessDesc !== 'custom' ? verifySuccessDesc : "Complete! Access Granted.</a> | <a class=\"text-red-500 animate-pulse\" href=\"https://haze-ecom.com/privacy\">Privacy Policy</a>";
 		}
 		else {
 			document.getElementById("failureCross").hidden=false;
